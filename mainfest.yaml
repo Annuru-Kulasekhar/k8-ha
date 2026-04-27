@@ -11,7 +11,7 @@ metadata:
   annotations:
     kubernetes.io/change-cause: "moving to 1.29.7"
 spec:
-  replicas: 4
+  replicas: 7
   selector:
     # using these labels replica set selects the pod
     matchLabels:
@@ -50,3 +50,4 @@ spec:
       containers:
       - name: nginx
         image: nginx:1.29.7
+
